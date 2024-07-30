@@ -13,7 +13,6 @@ export async function getStaticProps() {
 }
 
 export default function Home({ categories }) {
-  console.log(categories);
   return (
     <div className={styles.container}>
       <Head>
